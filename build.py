@@ -9,8 +9,13 @@ import numpy as np
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
+
+
 API_KEY = os.environ.get("POLYGON_API_KEY")  # set in GitHub Secrets
-TICKERS = ["AAPL","MSFT","GOOGL","AMZN","META","NVDA","TSLA","AVGO"]
+
+
+
+TICKERS = ["AAPL"]
 YEARS_BACK = 2
 TIMESPAN = "day"  # free tier: use daily/minute as allowed; daily is safest for rate limits
 
