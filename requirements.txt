@@ -1,4 +1,4 @@
-polygon-api-client
+yfinance
 pandas
 numpy
 plotly
